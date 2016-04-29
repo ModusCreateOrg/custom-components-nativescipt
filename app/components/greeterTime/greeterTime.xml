@@ -1,0 +1,6 @@
+<StackLayout loaded="onLoad"
+    xmlns:clock="components/clock">
+    <Label id="fL"/>
+    <Label id="nL"/>
+    <clock:clock/>
+</StackLayout>

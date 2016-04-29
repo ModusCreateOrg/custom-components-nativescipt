@@ -1,0 +1,4 @@
+<StackLayout loaded="onLoad">
+    <TextField text="{{ first }}" />
+    <TextField text="{{ last }}" />
+</StackLayout>

@@ -1,0 +1,21 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+    xmlns:copyright="components/copyright"
+    xmlns:clock="components/clock"
+    xmlns:greeter="components/greeter"
+    xmlns:greeterTime="components/greeterTime"
+    xmlns:nameForm="components/nameForm"
+    navigatingTo="onNavigatingTo">
+    <StackLayout id="container">
+        <copyright:copyright/>
+        <clock:clock/>
+        <greeter:greeter framework="Nativescript" name="{{name}}"/>
+        <greeterTime:greeterTime framework="Phonegap" name="{{name}}"/>
+
+        <StackLayout orientation="horizontal">
+            <Label text="{{name.first}}" />
+            <Label text="{{name.last}}" />
+        </StackLayout>
+
+        <nameForm:nameForm fullName="{{name}}"/>
+    </StackLayout>
+</Page>

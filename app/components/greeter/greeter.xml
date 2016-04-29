@@ -1,0 +1,4 @@
+<StackLayout loaded="onLoad">
+    <Label id="fL"/>
+    <Label id="nL"/>
+</StackLayout>

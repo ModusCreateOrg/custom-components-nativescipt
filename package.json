@@ -1,0 +1,15 @@
+{
+	"description": "Exploring how to write custom components in NativeScript",
+	"license": "MIT",
+	"readme": "README.md",
+	"repository": "https://github.com/ModusCreateOrg/custom-components-nativescipt",
+	"nativescript": {
+		"id": "org.nativescript.mycomponents",
+		"tns-ios": {
+			"version": "2.0.0"
+		}
+	},
+	"dependencies": {
+		"tns-core-modules": "2.0.0"
+	}
+}
